@@ -4,8 +4,11 @@ A simple Python calculator implementation.
 
 ## Features
 
-- Basic arithmetic operations (add, subtract)
-
+- Basic arithmetic operations
+    - Addition
+    - Subtraction
+    - Multiplication
+    - Division
 
 
 ## Project Structure
