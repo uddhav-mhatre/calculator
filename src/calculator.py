@@ -1,4 +1,4 @@
-"""Main calculator module."""
+"""Calculator module. Operations: add, subtract, multiply, divide, power, modulo."""
 
 def add(a, b):
     return a + b
@@ -14,3 +14,5 @@ def divide(a,b):
         raise ValueError("division not possible")
     return a / b
     
+def modulo(a, b):
+    return a % b
