@@ -14,3 +14,5 @@ def divide(a,b):
         raise ValueError("division not possible")
     return a / b
     
+def power(base, exp):
+    return base ** exp
