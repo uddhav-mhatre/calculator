@@ -1,4 +1,4 @@
-"""Main calculator module."""
+"""Calculator module. Operations: add, subtract, multiply, divide, power, modulo."""
 
 def add(a, b):
     return a + b
