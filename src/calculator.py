@@ -1,4 +1,4 @@
-"""Main calculator module."""
+"""Calculator module. Operations: add, subtract, multiply, divide, power, modulo."""
 
 def add(a, b):
     return a + b
@@ -16,3 +16,7 @@ def divide(a,b):
     
 def power(base, exp):
     return base ** exp
+
+def modulo(a, b):
+    return a % b
+
