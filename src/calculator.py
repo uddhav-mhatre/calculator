@@ -1,8 +1,13 @@
 """Calculator module. Operations: add, subtract, multiply, divide, power, modulo."""
 
+<<<<<<< HEAD
 def add(a, b=None):
     if isinstance(a, list):
         return sum(a)
+=======
+def add(a: float, b: float) -> float:
+    """Add two numbers and return the result."""
+>>>>>>> origin
     return a + b
 
 def subtract(a, b):
