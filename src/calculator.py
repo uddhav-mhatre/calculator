@@ -1,13 +1,11 @@
 """Calculator module. Operations: add, subtract, multiply, divide, power, modulo."""
 
-<<<<<<< HEAD
-def add(a, b=None):
+from typing import Union
+
+def add(a: Union[float, list], b: float = None) -> float:
+    """Add two numbers, or sum a list of numbers."""
     if isinstance(a, list):
         return sum(a)
-=======
-def add(a: float, b: float) -> float:
-    """Add two numbers and return the result."""
->>>>>>> origin
     return a + b
 
 def subtract(a, b):
