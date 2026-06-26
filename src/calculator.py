@@ -1,6 +1,7 @@
 """Calculator module. Operations: add, subtract, multiply, divide, power, modulo."""
 
-def add(a, b):
+def add(a: float, b: float) -> float:
+    """Add two numbers and return the result."""
     return a + b
 
 def subtract(a, b):
